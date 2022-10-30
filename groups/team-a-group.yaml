@@ -19,7 +19,7 @@ metadata:
   name: DevA
 spec:
   profile:
-    displayName: Developer A
-    email: devA@vmware.com
-    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+    displayName: Robert Jensen
+    email: robert@robert-jensen.dk
+    picture: https://avatars.githubusercontent.com/u/24954205?v=4
   memberOf: [team-A]

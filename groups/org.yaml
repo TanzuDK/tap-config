@@ -1,13 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: tap-org
+  name: tanzudk
   description: The Tap organization
   links:
-    - url: http://www.backstage.io/
+    - url: https://start.tanzu.dk
       title: Website
-    - url: https://meta.wikimedia.org/wiki/
-      title: Intranet
 spec:
   type: organization
   profile:
@@ -19,8 +17,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-group
-  description: A Backstage example group
+  name: tanzudk-group
+  description: Tanzu.DK Group
 spec:
   targets:
     - ./it-dept.yaml

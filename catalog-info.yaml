@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: tap-iam
+  name: tap-config
   description: IAM config for tap
   annotations:
     "backstage.io/techdocs-ref": dir:.

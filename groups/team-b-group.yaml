@@ -7,7 +7,7 @@ spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: team-b@example.com
+    email: team-b@tanzu.dk
     picture: https://avatars.dicebear.com/api/identicon/team-b@example.com.svg?background=%23fff&margin=25
   parent: development
   children: []
@@ -16,10 +16,10 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: DevB
+  name: vesko-nedeltchev
 spec:
   profile:
-    displayName: Developer B
-    email: devB@vmware.com
-    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+    displayName: Vesko Nedeltchev
+    email: vnedeltchev@vmware.com
+    picture: https://media-exp1.licdn.com/dms/image/C4E03AQE_6M1LbKNXPQ/profile-displayphoto-shrink_200_200/0/1654090367448?e=1672876800&v=beta&t=OfvyytOFpfRJrFIpKWLTgXFqwQHIMDH0mXYuAxfqTyk
   memberOf: [team-b]

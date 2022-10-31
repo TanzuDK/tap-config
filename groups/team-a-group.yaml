@@ -7,7 +7,7 @@ spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: team-a@example.com
+    email: team-a@tanzu.dk
     picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
   parent: development
   children: []
@@ -22,4 +22,4 @@ spec:
     displayName: Robert Jensen
     email: robert@robert-jensen.dk
     picture: https://avatars.githubusercontent.com/u/24954205?v=4
-  memberOf: [team-A]
+  memberOf: [team-a]

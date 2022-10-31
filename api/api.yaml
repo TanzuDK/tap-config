@@ -5,8 +5,8 @@ metadata:
 spec:
   type: openapi
   description: A sample APIDescriptor to validate package installation successful
-  system: test-installation
-  owner: test-installation
+  system: demo
+  owner: team-a
   location:
     path: "/api/v3/openapi.json"
     baseURL:

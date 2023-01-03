@@ -23,3 +23,4 @@ spec:
   targets:
     - ./default-team.yaml
     - ./guest-user.yaml
+    - ./users.yaml

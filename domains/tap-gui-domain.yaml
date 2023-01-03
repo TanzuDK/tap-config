@@ -10,6 +10,6 @@ metadata:
       title: Cloud Apps Dashboard
       icon: dashboard
   annotations:
-    'backstage.io/techdocs-ref': dir:.
+    "backstage.io/techdocs-ref": dir:.
 spec:
-  owner: default-team
+  owner: denmark-team

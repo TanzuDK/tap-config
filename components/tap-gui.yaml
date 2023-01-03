@@ -11,5 +11,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: black-team
+  owner: denmark-team
   system: tap-gui

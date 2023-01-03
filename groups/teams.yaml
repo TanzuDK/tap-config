@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: white-team
+  description: White Team
+spec:
+  type: team
+  profile:
+    displayName: White Team
+    email: white@tanzu.dk
+    picture: https://static.wikia.nocookie.net/spyversusspy/images/6/66/Whitespyyyy.jpg/revision/latest?cb=20190317214453
+  parent: default-org
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: black-team
+  description: Black Team
+spec:
+  type: team
+  profile:
+    displayName: Black Team
+    email: black@tanzu.dk
+    picture: https://static.wikia.nocookie.net/spyversusspy/images/7/79/Blackspyyy.jpg/revision/latest?cb=20190317214601
+  parent: default-org
+  children: []

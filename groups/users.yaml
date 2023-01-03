@@ -1,10 +1,32 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: robert_jensen
+  name: robert-jensen
 spec:
   profile:
     displayName: Robert Jensen
     email: robert@robert-jensen.dk
     picture: https://media.licdn.com/dms/image/C4E03AQGxKuRCaUZf9A/profile-displayphoto-shrink_400_400/0/1653650768820?e=1678320000&v=beta&t=pCTwIjPkjbTQcDmXL7lKk4wPUU2ryjDX9zhd9pYIKRM
   memberOf: [denmark-team, norway-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: viktor-van-der-berg
+spec:
+  profile:
+    displayName: Viktor van den Berg
+    email: vvandenberg@vmware.com
+    picture: https://media.licdn.com/dms/image/D4E03AQHi76HzzoE8Jg/profile-displayphoto-shrink_400_400/0/1668516117162?e=1678320000&v=beta&t=RLFy4nOiqV3Mjw1pQw4iaXSvfiPPWjhlB4QJ02Wxh-g
+  memberOf: [denmark-team, norway-team, sweeden-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mattias-soderberg
+spec:
+  profile:
+    displayName: Mattias Soderberg
+    email: msoderberg@vmware.com
+    picture: https://media.licdn.com/dms/image/C4D03AQEdUl3qHIkAqQ/profile-displayphoto-shrink_400_400/0/1579795766046?e=1678320000&v=beta&t=lqENh2ejiQmsbzKWBtMq2vyVQVI3X9beED0DZhMXq3g
+  memberOf: [sweeden-team]

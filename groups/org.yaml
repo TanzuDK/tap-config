@@ -10,14 +10,14 @@ spec:
   type: organization
   profile:
     displayName: Default Organization
-    email: demo@example.com
+    email: nordics@tanzu.dk
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [default-team]
+  children: [denmark-team, sweeden-team, norway-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: default-group
+  name: nordics-group
   description: A Default Group Location
 spec:
   targets:

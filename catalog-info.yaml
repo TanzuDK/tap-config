@@ -4,10 +4,10 @@ metadata:
   name: tap-gui-catalog-info
   description: A sample catalog for Backstage
   annotations:
-    'backstage.io/techdocs-ref': dir:.
+    "backstage.io/techdocs-ref": dir:.
 spec:
   targets:
     - ./components/tap-gui.yaml
-    - ./groups/default-org.yaml
+    - ./groups/org.yaml
     - ./systems/tap-gui-system.yaml
     - ./domains/tap-gui-domain.yaml

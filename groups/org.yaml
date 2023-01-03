@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: default-org
-  description: The Default Organization
+  name: nordics-org
+  description: The Nordics Organization
   links:
     - url: https://tanzu.vmware.com/support
       title: Tanzu Support Website

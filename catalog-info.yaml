@@ -1,11 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: tap-config
-  description: IAM config for tap
+  name: tap-gui-catalog-info
+  description: A sample catalog for Backstage
   annotations:
-    "backstage.io/techdocs-ref": dir:.
+    'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./groups/org.yaml
-#    - ./api/api.yaml
+    - ./components/tap-gui.yaml
+    - ./groups/default-org.yaml
+    - ./systems/tap-gui-system.yaml
+    - ./domains/tap-gui-domain.yaml

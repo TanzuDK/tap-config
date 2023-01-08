@@ -10,5 +10,4 @@ spec:
     - ./components/tap-gui.yaml
     - ./groups/org.yaml
     - ./systems/tap-gui-system.yaml
-    - ./systems/accelerators.yaml
     - ./domains/tap-gui-domain.yaml

@@ -9,7 +9,5 @@ metadata:
     - url: http://example.com/domains/cloud-apps/dashboard
       title: Cloud Apps Dashboard
       icon: dashboard
-  annotations:
-    "backstage.io/techdocs-ref": dir:.
 spec:
   owner: denmark-team

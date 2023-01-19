@@ -3,8 +3,6 @@ kind: System
 metadata:
   name: tap-gui
   description: Tanzu Application Platform GUI System
-  annotations:
-    "backstage.io/techdocs-ref": dir:.
 spec:
   owner: denmark-team
   domain: tap-gui-domain

@@ -18,7 +18,7 @@ spec:
     displayName: Viktor van den Berg
     email: vvandenberg@vmware.com
     picture: https://media.licdn.com/dms/image/D4E03AQHi76HzzoE8Jg/profile-displayphoto-shrink_400_400/0/1668516117162?e=1678320000&v=beta&t=RLFy4nOiqV3Mjw1pQw4iaXSvfiPPWjhlB4QJ02Wxh-g
-  memberOf: [denmark-team, norway-team, sweeden-team]
+  memberOf: [denmark-team, norway-team, sweeden-team, dutch-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -30,3 +30,14 @@ spec:
     email: msoderberg@vmware.com
     picture: https://media.licdn.com/dms/image/C4D03AQEdUl3qHIkAqQ/profile-displayphoto-shrink_400_400/0/1579795766046?e=1678320000&v=beta&t=lqENh2ejiQmsbzKWBtMq2vyVQVI3X9beED0DZhMXq3g
   memberOf: [sweeden-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: david-caron
+spec:
+  profile:
+    displayName: David Caron
+    email: dcaron@vmware.com
+    picture: https://media.licdn.com/dms/image/C4E03AQFqgx4KYA4sdw/profile-displayphoto-shrink_400_400/0/1581519747672?e=1679529600&v=beta&t=71xtrSGZFKr7GTcmUWZlD7on5uDwKjir_-jMzhskhPs
+  memberOf: [dutch-team]

@@ -12,7 +12,7 @@ spec:
     displayName: Nordics Organization
     email: nordics@tanzu.dk
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [denmark-team, sweeden-team, norway-team]
+  children: [denmark-team, sweeden-team, norway-team, dutch-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location

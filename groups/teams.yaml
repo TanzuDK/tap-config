@@ -39,3 +39,17 @@ spec:
     picture: https://www.worldometers.info/img/flags/no-flag.gif
   parent: nordics-org
   children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: dutch-team
+  description: Dutch
+spec:
+  type: team
+  profile:
+    displayName: Dutch Team
+    email: nl@tanzu.dk
+    picture: https://www.worldometers.info/img/flags/nl-flag.gif
+  parent: nordics-org
+  children: []

@@ -15,12 +15,12 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: sweeden-team
-  description: Sweeden
+  name: sweden-team
+  description: Sweden
 spec:
   type: team
   profile:
-    displayName: Sweeden Team
+    displayName: Sweden Team
     email: se@tanzu.dk
     picture: https://www.worldometers.info/img/flags/sw-flag.gif
   parent: nordics-org

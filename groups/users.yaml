@@ -18,7 +18,7 @@ spec:
     displayName: Viktor van den Berg
     email: vvandenberg@vmware.com
     picture: https://media.licdn.com/dms/image/D4E03AQHi76HzzoE8Jg/profile-displayphoto-shrink_400_400/0/1668516117162?e=1678320000&v=beta&t=RLFy4nOiqV3Mjw1pQw4iaXSvfiPPWjhlB4QJ02Wxh-g
-  memberOf: [denmark-team, norway-team, sweeden-team, dutch-team]
+  memberOf: [denmark-team, norway-team, sweden-team, dutch-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User

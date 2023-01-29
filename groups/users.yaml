@@ -41,3 +41,25 @@ spec:
     email: dcaron@vmware.com
     picture: https://media.licdn.com/dms/image/C4E03AQFqgx4KYA4sdw/profile-displayphoto-shrink_400_400/0/1581519747672?e=1679529600&v=beta&t=71xtrSGZFKr7GTcmUWZlD7on5uDwKjir_-jMzhskhPs
   memberOf: [dutch-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: niels-teekens
+spec:
+  profile:
+    displayName: Niels Teekens
+    email: nteekens@vmware.com
+    picture: https://media.licdn.com/dms/image/D4E03AQHeohlnDiQPkw/profile-displayphoto-shrink_400_400/0/1669308642605?e=1680739200&v=beta&t=D3epxHQ2knGsyQhxf63bveVL2YVXCedYabG1MDO6zIc
+  memberOf: [dutch-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: neven-cvetkovic
+spec:
+  profile:
+    displayName: Neven Cvetkovic
+    email: ncvetkovic@vmware.com
+    picture: https://media.licdn.com/dms/image/C4E03AQH4yhy9ztNqSA/profile-displayphoto-shrink_400_400/0/1584454199981?e=1680739200&v=beta&t=wtooWHoYNgNsDoVVawoO1Hy83ZamkLAFKM6KlN8vC5Y
+  memberOf: [sweeden-team]

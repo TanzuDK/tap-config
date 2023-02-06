@@ -53,3 +53,17 @@ spec:
     picture: https://www.worldometers.info/img/flags/nl-flag.gif
   parent: nordics-org
   children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: belgian-team
+  description: Belgian
+spec:
+  type: team
+  profile:
+    displayName: Belgian Team
+    email: be@tanzu.dk
+    picture: https://www.worldometers.info/img/flags/be-flag.gif
+  parent: nordics-org
+  children: []
